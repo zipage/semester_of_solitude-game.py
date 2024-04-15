@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Front End/introduction.css">
+    <title>Semester of Solitude</title>
+</head>
+
+<body>
+
+    <div class="mainNav">
+        <ul class="navMenu">
+            <li><a href="/Front End/homeTitle.html">home</a></li>
+            <li><a href="/Front End/">story</a></li>
+            <li><a href="">HELP!</a></li>
+        </ul>
+    </div>
+
+    <!--
+    <!-- lofi audio people can play/pause that plays as a loop while playing the game --
+    <div class="backgroundAudio">
+        <audio id="backgroundMusic">
+            <source src="/garden-vibes-lofi_pixabay.mp3" type="">
+        </audio>
+
+        <!-- buttongs to play/pause --
+        <div class="musicButtons">
+            <button onclick="playMusic()" type="button">play music</button>
+            <button onclick="pauseMusic()" type="button">pause music</button>
+        </div>
+    </div> -->
+
+    <!-- introduction text -->
+    <div class="introText">
+        <p>The alarm blares, piercing through the quiet solitude of your apartment. Rubbing the sleep
+            from your eyes, you groggily reach for your phone, greeted by a barrage of notifications.
+            Emails from professors, reminders of assignments due, and updates from friends fill the screen.
+            It's another day in the era of social distancing, where physical connection has been replaced
+            by digital interaction.<br><br>
+
+            *SIGH* you rise from bed, the weight of the semester pressing down on your
+            shoulders. The familiar routine begins: check emails, attend online lectures, complete
+            assignments—all from the confines of your Bachelor apartment. The once bustling campus lies
+            dormant, its halls echoing with a haunting emptiness.<br><br>
+
+            As you navigate through the virtual labyrinth of online learning platforms, a sense of
+            isolation sets in. Gone are the days of impromptu study sessions at the library, laughter-filled
+            meals with friends, and the comforting buzz of campus life. Now, the only company is the glow of a
+            computer screen and the distant hum of passing cars outside -- and your cat Ollie.<br><br>
+
+            But amidst the solitude, there is resilience. You refuse to let the challenges of social
+            distancing dampen your spirits. With determination and grit, you embrace this new reality,
+            finding solace in virtual hangouts with friends, moments of self-care, and the pursuit of
+            knowledge.<br><br>
+
+            Will the you overcome the obstacles of remote learning, maintain your mental well-being, and
+            emerge stronger on the other side? The journey begins now in<br><br>
+            "Semester of Solitude: A Social
+            Distancing Story.</p>
+    </div>
+
+    <!-- proceed to the next page -->
+    <div class="next_and_previousButtons">
+        <!--  <a href="#" class="previous round">&#8249;</a> -->
+        <button id="nextButton">
+            <a href="/Front End/story.html" class="next round"> CONTINUE &#8250;</a>
+        </button>
+
+
+    </div>
+
+
+
+    <!-- javascript for the music -->
+    <script>
+        var x = document.getElementById("backgroundMusic");
+        function playMusic() {
+            x.play();
+        }
+
+        function pauseMusic() {
+            x.pause();
+        }
+    </script>
+</body>
+
+
+
+</html>

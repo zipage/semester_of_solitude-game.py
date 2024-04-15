@@ -1,0 +1,17 @@
+playerName: # Stores the name of the player.
+alarmStatus: # Stores whether the alarm is currently active or not.
+notifications: # Stores the array or list of notifications the player receives.
+semesterProgress: # Tracks the progress of the semester.
+mentalWellBeing: # Represents the mental well-being of the player.
+virtualHangouts: # Stores the number or frequency of virtual hangouts the player engages in.
+assignments: # Stores the list of assignments the player needs to complete.
+campusActivity: # Tracks the level of activity on campus.
+resilience: # Represents the resilience level of the player.
+obstacles: # Stores the list of obstacles the player faces.
+strength: # Represents the strength or capability of the player to overcome obstacles.
+adaptability: # Tracks the adaptability level of the player.
+connection: # Represents the strength of the player's social connections.
+solitude: # Represents the degree of solitude experienced by the player.
+gameProgress: # Tracks the overall progress of the game.
+
+Ⓜ = 'Major Choice'
